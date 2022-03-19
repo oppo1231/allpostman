@@ -1,0 +1,208 @@
+{
+	"id": "f13ca12d-7531-48a0-a84f-702f855a09cb",
+	"name": "product",
+	"timestamp": "2022-03-11T04:00:49.321Z",
+	"collection_id": "0-367269b2-6546-446f-a7a4-6a5f83c9142a",
+	"folder_id": 0,
+	"environment_id": "29424164-d6b8-49cc-b59c-0b77cae3cc62",
+	"totalPass": 15,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "cac74596-342b-48d7-b50a-b61c405e9062",
+			"name": "get all product",
+			"time": 2088,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				3130,
+				2048,
+				2088
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ebfe2470-c03f-45bd-a1ea-daa9ab7ea344",
+			"name": "create product",
+			"time": 763,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				751,
+				786,
+				763
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ef1c922d-10d3-4a7c-995f-5b6aaf102fad",
+			"name": "get product by id",
+			"time": 693,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				796,
+				735,
+				693
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "de98d239-ca5f-470a-9a2c-6d5d3764ba89",
+			"name": "UPDATE PRODUCT",
+			"time": 321,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				315,
+				314,
+				321
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4c480673-da6d-4ddf-9b64-32274eb0f85c",
+			"name": "DELETE",
+			"time": 807,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				742,
+				685,
+				807
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 14974,
+	"collection": {
+		"requests": [
+			{
+				"id": "cac74596-342b-48d7-b50a-b61c405e9062",
+				"method": "GET"
+			},
+			{
+				"id": "ebfe2470-c03f-45bd-a1ea-daa9ab7ea344",
+				"method": "POST"
+			},
+			{
+				"id": "ef1c922d-10d3-4a7c-995f-5b6aaf102fad",
+				"method": "GET"
+			},
+			{
+				"id": "de98d239-ca5f-470a-9a2c-6d5d3764ba89",
+				"method": "PATCH"
+			},
+			{
+				"id": "4c480673-da6d-4ddf-9b64-32274eb0f85c",
+				"method": "DELETE"
+			}
+		]
+	}
+}
